@@ -76,5 +76,5 @@ This benchmark demonstrates how input order and algorithm design affect sorting 
 
 ## 8. Performance Chart
 
-![Sorting Algorithms Benchmark](Sorting_Algorithms_Execution_Time_Comparison.png)
+![Sorting Algorithms Benchmark](benchmark_chart.png)
 
