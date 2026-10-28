@@ -92,9 +92,9 @@ Random: [Insertion]
 
 Reverse Sorted: [Selection]
 
-Partially Sorted: [Insertion]
+3.Partially Sorted: [Insertion]
 
-Fully Sorted: [Insertion]
+4.Fully Sorted: [Insertion]
 
 These conclusions should be based on the measured execution times rather than theoretical expectations alone.
 
@@ -109,6 +109,7 @@ The experiment demonstrates how the initial arrangement of data can affect execu
 The chart compares the execution time of Selection Sort,
 Insertion Sort, and Bubble Sort across four input cases.
 
+1.Random  2.Reverse  3.Partially  4.Fully
 ![Sorting Algorithms Benchmark](benchmark_chart.png)
 
 
