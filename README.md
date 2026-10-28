@@ -46,35 +46,62 @@ Replace the placeholders with the actual measurements from your Java program.
 
 ## 5. Performance Analysis
 
-### O(N²) Algorithms
+### Selection Sort
 
-Selection Sort, Insertion Sort, and Bubble Sort have O(N²) average or worst-case time complexity, although Insertion Sort performs well on already sorted or nearly sorted data.
+Selection Sort repeatedly finds the smallest element in the unsorted portion of the array and places it in the correct position.
 
+Time complexity: O(N²)
 
-### Best Performance
+Its number of comparisons is approximately quadratic regardless of the initial order of the data.
 
-Based on the measured results, the best-performing algorithm for each input case is:
+It performs a relatively small number of swaps.
 
-- Random: [Insertion]
-- Reverse Sorted: [Selection]
-- Partially Sorted: [Insertion]
-- Fully Sorted: [Insertion]
+### Insertion Sort
 
-These conclusions must be based on the actual benchmark measurements.
+Insertion Sort builds a sorted portion of the array by inserting each element into its correct position.
 
-## 6. Quick Sort and Pivot Selection
+Average and worst-case time complexity: O(N²)
 
-Quick Sort selects a pivot and partitions the array into elements smaller than the pivot and elements greater than or equal to it.
+Best-case time complexity: O(N) for already sorted data.
 
-If the pivot repeatedly creates highly unbalanced partitions, Quick Sort may degrade to O(N²). This can occur when the last element is consistently selected as the pivot for already sorted or reverse-sorted arrays.
+It can perform well on sorted or nearly sorted arrays.
 
-Better pivot strategies, such as randomized or median-of-three selection, can reduce the likelihood of poor partitions.
+### Bubble Sort
 
-## 7. Conclusion
+Bubble Sort repeatedly compares adjacent elements and swaps them when they are in the wrong order.
 
-This benchmark demonstrates how input order and algorithm design affect sorting performance. The experimental results can be used to compare simple quadratic sorting algorithms with the more scalable Quick Sort algorithms.
+Average and worst-case time complexity: O(N²)
 
-## 8. Performance Chart
+Best-case time complexity: O(N) if an early-stop optimization is implemented.
 
-![Sorting Algorithms Benchmark](benchmark_chart.png)
+Its performance can be poor on large, randomly ordered or reverse-sorted arrays.
+
+## 6. Comparison of Algorithms
+
+Selection Sort and Bubble Sort generally perform many comparisons, even when the array is already sorted.
+
+Insertion Sort can be considerably faster when the input is already sorted or nearly sorted because it requires fewer element shifts.
+
+For large arrays, these three algorithms can take a long time because their average or worst-case time complexity is O(N²).
+
+## 7. Best Performing Algorithm
+
+Based on the actual benchmark results, identify the fastest algorithm for each case:
+
+Random: [Insertion]
+
+Reverse Sorted: [Selection]
+
+Partially Sorted: [Insertion]
+
+Fully Sorted: [Insertion]
+
+These conclusions should be based on the measured execution times rather than theoretical expectations alone.
+
+## 8. Conclusion
+
+This project compares Selection Sort, Insertion Sort, and Bubble Sort under different input conditions.
+
+The experiment demonstrates how the initial arrangement of data can affect execution time, particularly for Insertion Sort and optimized Bubble Sort. The results also illustrate the limitations of quadratic-time sorting algorithms when processing large arrays.
+
 
