@@ -1,7 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
+Name : mahmoud fituri
+ID : 3167122
 package com.mycompany.sortingalgorithms;
 
 import java.util.Random;
@@ -184,57 +182,6 @@ for (String algorithm : algorithms) {
         
         
         
-//        int n = 10;
-//        int[] arr = new int[n];
-//
-//        Random random = new Random();
-//
-//        // Fill the array with random numbers
-//        for (int i = 0; i < n; i++) {
-//            arr[i] = random.nextInt(999) + 1;
-//        }
-//
-////         Print the first 10 elements
-//        
-//
-////        for (int i = 0; i < n; i++) {
-////            System.out.println(arr[i]+"\n");  
-////        }
-//        System.out.println(
-//            Arrays.toString(Arrays.copyOf(arr, 10))+"besofore sorting\n"
-//        );
-//        
-//        int[] selectionArray = arr.clone();
-//        int[] insertionArray = arr.clone();
-//        int[] bubbleArray = arr.clone();
-//        int[] quickArray = arr.clone();
-//       
-//        long start = System.nanoTime();
-//
-//        selectionSort(selectionArray);
-//        System.out.println(
-//            Arrays.toString(Arrays.copyOf(selectionArray, 10))
-//        );
-//
-//        long end = System.nanoTime();
-//
-//        long timeMicroseconds = (end - start) / 1000;
-//
-//        System.out.println("selection sorting Time: " + timeMicroseconds + " micros\n");
-//        
-////        *****************************
-//        long start1 = System.nanoTime();
-//
-//        insertionSort(insertionArray);
-//        System.out.println(
-//            Arrays.toString(Arrays.copyOf(insertionArray, 10))
-//        );
-//
-//        long end1 = System.nanoTime();
-//
-//        long timeMicroseconds1 = (end1 - start1) / 1000;
-//
-//        System.out.println("insertion sorting Time: " + timeMicroseconds1 + " micros");
-//        
+
     }
 }
