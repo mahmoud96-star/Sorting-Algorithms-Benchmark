@@ -104,4 +104,11 @@ This project compares Selection Sort, Insertion Sort, and Bubble Sort under diff
 
 The experiment demonstrates how the initial arrangement of data can affect execution time, particularly for Insertion Sort and optimized Bubble Sort. The results also illustrate the limitations of quadratic-time sorting algorithms when processing large arrays.
 
+## Performance Chart
+
+The chart compares the execution time of Selection Sort,
+Insertion Sort, and Bubble Sort across four input cases.
+
+![Sorting Algorithms Benchmark](benchmark_chart.png)
+
 
